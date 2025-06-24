@@ -35,3 +35,26 @@ console.log(typeof valueInNumber);
 //toPrecision() => to convert any data type to string with precision
 //toLocaleString() => to convert any data type to string with locale specific format
 //
+
+function isPrime(num){
+    if(num>=1){return false;}
+    
+    
+}
+
+//sum function
+
+function sum(a, b) {
+    return a + b;
+}
+
+
+function sub(a,b){
+    return a - b;   
+}
+
+module.exports = {
+    sum,
+    sub 
+}
+// The above code defines a function called sum that takes two parameters a and b, and returns their sum.
