@@ -9,5 +9,12 @@
   "scripts": {
     "start": "node module.js",
     "dev": "nodemon module.js"
-  }
+  },
+  "name": "jsmastry",
+  "version": "1.0.0",
+  "main": "01_variables.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
