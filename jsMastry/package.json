@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "nodemon": "^3.1.10",
+    "url": "^0.11.4"
+  },
+  "scripts": {
+    "start": "node module.js",
+    "dev": "nodemon module.js"
+  }
+}
