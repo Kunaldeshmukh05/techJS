@@ -38,3 +38,13 @@ const result = addNumbers(5, 10);  //Calling the function and storing the result
 console.log(result);  //Output the result of the function call
 
 console.log(addNumbers(5,10));  //Output the sum of two numbers
+
+
+const myNewArray =[2,3,4,5,6,6,7]
+
+function getarrayelement(getArray){
+console.log(getArray[0]);
+}
+
+getarrayelement(myNewArray);
+getarrayelement([2,3,4,5,6,6,7])
