@@ -11,3 +11,4 @@ const {courseInstructor: a} = course;
 
 console.log(a); //Output the course instructor
 
+

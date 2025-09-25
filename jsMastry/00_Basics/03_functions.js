@@ -58,3 +58,9 @@ module.exports = {
     sub 
 }
 // The above code defines a function called sum that takes two parameters a and b, and returns their sum.
+
+const kunal =()=>{
+    console.log("I am kunal")
+}
+
+kunal();
