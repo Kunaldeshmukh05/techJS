@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .title {
+        color: red;
+        text-align: center;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title" id="title ">Learning dom manipuation in the js</h1>
+
+    <script>
+        document.getElementById("heading").style.backgroundColor="wheat";
+        
+
+    </script>
+  </body>
+</html>
+
+
+
+<!-- Methods of DOM Manipulation in JavaScript with Examples
+// dom manipulation
+methods of selecting elements
+1. getElementById example = document.getElementById("heading").style.color = "blue";
+2. getElementsByClassName example = document.getElementsByClassName("title")[0].style.color = "green";
+3. getElementsByTagName example = document.getElementsByTagName("h1")[0].style.color = "yellow";
+4. querySelector example = document.querySelector("#heading").style.color = "purple";
+5. querySelectorAll example = document.querySelectorAll(".title")[0].style.color = "orange";
+6. getAttribute example = document.getElementById("heading").getAttribute("class");
+7. setAttribute example = document.getElementById("heading").setAttribute("class", "newClass");
+8. createElement example = document.createElement("div");
+9. appendChild example = document.body.appendChild(document.createElement("div"));
+10. removeChild example = document.body.removeChild(document.getElementById("heading"));
+11. replaceChild example = document.body.replaceChild(document.createElement("h2"), document.getElementById("heading"));
+12. innerHTML example = document.getElementById("heading").innerHTML = "New Heading";
+13. textContent example = document.getElementById("heading").textContent = "New Heading";
+14. style example = document.getElementById("heading").style.color = "blue";
+15. classList example = document.getElementById("heading").classList.add("newClass");
+16. parentNode example = document.getElementById("heading").parentNode;
+
+17. childNodes example = document.body.childNodes;
+18. nextSibling example = document.getElementById("heading").nextSibling;
+19. previousSibling     example = document.getElementById("heading").previousSibling;
+20. addEventListener    example = document.getElementById("heading").addEventListener("click", function(){ alert("Heading clicked"); });
+21. removeEventListener example = document.getElementById("heading").removeEventListener("click", function(){ alert("Heading clicked"); });
+22. event object example = document.getElementById("heading").addEventListener("click", function(event){ console.log(event); });
+23. preventDefault example = document.getElementById("heading").addEventListener("click", function(event){ event.preventDefault(); });
+24. stopPropagation example = document.getElementById("heading").addEventListener("click", function(event){ event.stopPropagation(); });
+25. DOMContentLoaded example = document.addEventListener("DOMContentLoaded", function(){ console.log("DOM fully loaded and parsed"); });
+26. window.onload example = window.onload = function(){ console.log("Window loaded"); };
+27. localStorage example = localStorage.setItem("key", "value");
+28. sessionStorage example = sessionStorage.setItem("key", "value");
+29. cookies example = document.cookie = "key=value";
+30. JSON.parse example = JSON.parse('{"key":"value"}');
+31. JSON.stringify example = JSON.stringify({key: "value"});
+
+here i want to understand the dom manipulation in the js so explain me the above methods with examples
+so here i will give you the example of each method one by one
+so first i will give you the example of getElementById
+example of getElementById = document.getElementById("heading").style.color = "blue";
+
+is there anything left for the most used dom manipulation methods in the js
+i think you have covered all the most used dom manipulation methods in the js
+
+but, the left one is innerText
+32. innerText example = document.getElementById("heading").innerText = "New Heading";
+
+
+-->

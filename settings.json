@@ -1,9 +1,0 @@
-{
-  "telemetry.enableTelemetry": false,
-  "telemetry.enableCrashReporter": false,
-  "update.mode": "default",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.formatOnSave": true,
-  "eslint.validate": ["javascript", "javascriptreact"],
-  "files.autoSave": "afterDelay"
-}
